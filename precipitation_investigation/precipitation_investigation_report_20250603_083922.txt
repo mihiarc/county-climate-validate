@@ -1,0 +1,82 @@
+PRECIPITATION RELATIONSHIPS INVESTIGATION REPORT
+============================================================
+
+Generated: 2025-06-03 08:39:22
+Dataset: county_climate_metrics_complete_1980_2100.csv
+
+EXECUTIVE SUMMARY
+--------------------
+Total records analyzed: 391,435
+Problem records identified: 4,546
+Problem rate: 1.16%
+
+PROBLEM PATTERNS
+----------------
+Counties affected: 93
+Extreme cases (>200 high precip days): 0
+
+TOP PROBLEM COUNTIES
+--------------------
+County 13281: 121 problem records
+County 55079: 121 problem records
+County 39001: 121 problem records
+County 39145: 121 problem records
+County 39015: 121 problem records
+County 26121: 120 problem records
+County 39071: 120 problem records
+County 55089: 117 problem records
+County 55131: 108 problem records
+County 55133: 107 problem records
+
+PROBLEM DISTRIBUTION BY SCENARIO
+---------------------------------
+historical: 2157 records
+ssp245: 1452 records
+hybrid: 937 records
+
+STATISTICAL SUMMARY OF PROBLEM RECORDS
+---------------------------------------
+Annual Precipitation Range: 1325.0 - 1803.0 mm
+Annual Precipitation Mean: 1568.0 mm
+High Precip Days Range: 100.1 - 159.0 days
+High Precip Days Mean: 113.7 days
+
+PROBLEM CATEGORIES IDENTIFIED
+-----------------------------
+1. Records with >100 high precipitation days (impossible)
+2. Low annual precipitation (<100mm) but many high precip days (>20)
+3. High precip days exceeding physical limits (>365 days)
+4. Unrealistic ratios of high precip days to total precipitation
+
+RECOMMENDATIONS
+---------------
+1. Investigate data processing pipeline for precipitation metrics
+2. Review threshold calculations for high precipitation days
+3. Validate source data for counties with persistent issues
+4. Consider implementing automated QC checks for these patterns
+5. Flag counties with >10 problem records for manual review
+
+SAMPLE PROBLEM RECORDS (First 20)
+--------------------------------
+ GEOID  year   scenario  annual_precipitation_mm  high_precip_days_95th
+ 13281  1980 historical              1643.297485                  121.0
+ 13281  1981 historical              1640.611572                  128.0
+ 13281  1982 historical              1639.396973                  122.0
+ 13281  1983 historical              1634.359497                  119.0
+ 13281  1984 historical              1613.811157                  115.0
+ 13281  1985 historical              1611.864990                  118.0
+ 13281  1986 historical              1628.765503                  120.0
+ 13281  1987 historical              1628.234497                  120.0
+ 13281  1988 historical              1608.592041                  127.0
+ 13281  1989 historical              1617.797363                  124.0
+ 13281  1990 historical              1628.501221                  126.0
+ 13281  1991 historical              1640.784790                  125.0
+ 13281  1992 historical              1618.838013                  114.0
+ 13281  1993 historical              1610.231567                  118.0
+ 13281  1994 historical              1602.650757                  125.0
+ 13281  1995 historical              1597.039673                  121.0
+ 13281  1996 historical              1607.159424                  122.0
+ 13281  1997 historical              1608.886719                  127.0
+ 13281  1998 historical              1616.037231                  131.0
+ 13281  1999 historical              1615.393311                  126.0
+

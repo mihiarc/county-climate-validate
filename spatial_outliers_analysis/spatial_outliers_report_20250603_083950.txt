@@ -1,0 +1,137 @@
+SPATIAL OUTLIERS ANALYSIS REPORT
+==================================================
+
+Generated: 2025-06-03 08:39:50
+Dataset: county_climate_metrics_complete_1980_2100.csv
+
+EXECUTIVE SUMMARY
+--------------------
+Total records analyzed: 391,435
+Unique counties: 3,235
+Climate metrics analyzed: 22
+Counties with outlier patterns: 116
+Counties outliers in >5 metrics: 0
+
+OUTLIER DETECTION SUMMARY
+--------------------------
+annual_max_temp_c: 9 outlier counties
+high_temp_days_95th: 20 outlier counties
+low_temp_days_10th: 20 outlier counties
+high_precip_days_95th: 20 outlier counties
+high_precip_days_95th.1: 20 outlier counties
+hot_days_30c: 20 outlier counties
+cold_days_0c: 17 outlier counties
+very_cold_days_10th: 20 outlier counties
+extremely_cold_days_5th: 20 outlier counties
+ultra_cold_days_1st: 20 outlier counties
+
+TOP PERSISTENT OUTLIER COUNTIES
+--------------------------------
+County 12051: Outlier in 4 metrics (366 total occurrences)
+County 12071: Outlier in 4 metrics (366 total occurrences)
+County 35001: Outlier in 3 metrics (247 total occurrences)
+County 35061: Outlier in 3 metrics (222 total occurrences)
+County 35028: Outlier in 3 metrics (195 total occurrences)
+County 35053: Outlier in 3 metrics (152 total occurrences)
+County 12011: Outlier in 3 metrics (245 total occurrences)
+County 12099: Outlier in 3 metrics (243 total occurrences)
+County 12086: Outlier in 3 metrics (249 total occurrences)
+County 12087: Outlier in 3 metrics (253 total occurrences)
+
+DETAILED COUNTY INVESTIGATIONS
+-------------------------------
+
+County 12051:
+  Records: 121
+  Scenarios: historical, hybrid, ssp245
+  Years: 1980-2100
+  Most extreme deviations:
+    ultra_cold_days_1st: 9.70σ
+    extremely_cold_days_5th: 5.19σ
+    low_temp_days_10th: 3.53σ
+    very_cold_days_10th: 3.37σ
+    cold_days_0c: 2.68σ
+
+County 12071:
+  Records: 121
+  Scenarios: historical, hybrid, ssp245
+  Years: 1980-2100
+  Most extreme deviations:
+    ultra_cold_days_1st: 7.73σ
+    extremely_cold_days_5th: 5.07σ
+    low_temp_days_10th: 3.47σ
+    very_cold_days_10th: 3.33σ
+    cold_days_0c: 2.65σ
+
+County 35001:
+  Records: 121
+  Scenarios: historical, hybrid, ssp245
+  Years: 1980-2100
+  Most extreme deviations:
+    ultra_cold_days_1st: 11.01σ
+    extremely_cold_days_5th: 9.10σ
+    very_cold_days_10th: 6.03σ
+    low_temp_days_10th: 4.78σ
+    annual_max_temp_c: -4.57σ
+
+County 35061:
+  Records: 121
+  Scenarios: historical, hybrid, ssp245
+  Years: 1980-2100
+  Most extreme deviations:
+    ultra_cold_days_1st: 9.26σ
+    extremely_cold_days_5th: 7.75σ
+    very_cold_days_10th: 5.66σ
+    annual_max_temp_c: -4.24σ
+    low_temp_days_10th: 4.20σ
+
+County 35028:
+  Records: 121
+  Scenarios: historical, hybrid, ssp245
+  Years: 1980-2100
+  Most extreme deviations:
+    extremely_cold_days_5th: 7.45σ
+    ultra_cold_days_1st: 6.46σ
+    very_cold_days_10th: 5.27σ
+    annual_max_temp_c: -3.64σ
+    low_temp_days_10th: 3.63σ
+
+CLIMATE METRICS ANALYZED
+------------------------
+1. annual_mean_temp_c
+2. annual_min_temp_c
+3. annual_max_temp_c
+4. high_temp_days_90th
+5. high_temp_days_95th
+6. low_temp_days_10th
+7. annual_mean_min_temp_c
+8. annual_precipitation_mm
+9. high_precip_days_95th
+10. high_precip_days_95th.1
+11. hot_days_30c
+12. threshold_90th_c
+13. threshold_95th_c
+14. cold_days_0c
+15. threshold_10th_c
+16. very_cold_days_10th
+17. extremely_cold_days_5th
+18. ultra_cold_days_1st
+19. threshold_10th_c_cold
+20. threshold_5th_c
+21. threshold_1st_c
+22. growing_degree_days
+
+METHODOLOGY
+-----------
+Outlier detection method: IQR with 3.0x threshold
+Applied separately to each year-scenario combination
+Counties flagged if consistently outliers across time periods
+Z-scores calculated relative to full dataset mean and std
+
+RECOMMENDATIONS
+---------------
+1. Investigate counties with >5 outlier metrics for data quality issues
+2. Review geographic/topographic factors for persistent outliers
+3. Validate source data for counties with extreme z-scores (>3σ)
+4. Consider regional climate patterns when interpreting outliers
+5. Flag top outlier counties for manual review in future analyses

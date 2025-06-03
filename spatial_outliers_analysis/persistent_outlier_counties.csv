@@ -1,0 +1,122 @@
+GEOID,metrics_as_outlier,total_outlier_occurrences,outlier_metrics
+12051,4,366,"['low_temp_days_10th', 'cold_days_0c', 'extremely_cold_days_5th', 'ultra_cold_days_1st']"
+12071,4,366,"['low_temp_days_10th', 'cold_days_0c', 'extremely_cold_days_5th', 'ultra_cold_days_1st']"
+12099,3,243,"['low_temp_days_10th', 'cold_days_0c', 'ultra_cold_days_1st']"
+12043,3,242,"['low_temp_days_10th', 'cold_days_0c', 'ultra_cold_days_1st']"
+35043,3,222,"['annual_max_temp_c', 'low_temp_days_10th', 'cold_days_0c']"
+35028,3,195,"['annual_max_temp_c', 'low_temp_days_10th', 'cold_days_0c']"
+12086,3,249,"['low_temp_days_10th', 'cold_days_0c', 'ultra_cold_days_1st']"
+35057,3,217,"['annual_max_temp_c', 'low_temp_days_10th', 'cold_days_0c']"
+35001,3,247,"['annual_max_temp_c', 'low_temp_days_10th', 'cold_days_0c']"
+35061,3,222,"['annual_max_temp_c', 'low_temp_days_10th', 'cold_days_0c']"
+35053,3,152,"['annual_max_temp_c', 'low_temp_days_10th', 'cold_days_0c']"
+12087,3,253,"['low_temp_days_10th', 'cold_days_0c', 'ultra_cold_days_1st']"
+38005,2,238,"['high_temp_days_95th', 'hot_days_30c']"
+55095,2,242,"['very_cold_days_10th', 'extremely_cold_days_5th']"
+55099,2,242,"['very_cold_days_10th', 'extremely_cold_days_5th']"
+30067,2,241,"['high_temp_days_95th', 'hot_days_30c']"
+12055,2,242,"['extremely_cold_days_5th', 'ultra_cold_days_1st']"
+35049,2,6,"['annual_max_temp_c', 'cold_days_0c']"
+38019,2,242,"['high_temp_days_95th', 'hot_days_30c']"
+55039,2,10,"['high_precip_days_95th', 'high_precip_days_95th.1']"
+39071,2,10,"['high_precip_days_95th', 'high_precip_days_95th.1']"
+55111,2,12,"['high_precip_days_95th', 'high_precip_days_95th.1']"
+55021,2,12,"['high_precip_days_95th', 'high_precip_days_95th.1']"
+55001,2,12,"['high_precip_days_95th', 'high_precip_days_95th.1']"
+55077,2,16,"['high_precip_days_95th', 'high_precip_days_95th.1']"
+22093,2,20,"['high_precip_days_95th', 'high_precip_days_95th.1']"
+55125,2,242,"['very_cold_days_10th', 'extremely_cold_days_5th']"
+55119,2,242,"['very_cold_days_10th', 'extremely_cold_days_5th']"
+55113,2,242,"['very_cold_days_10th', 'extremely_cold_days_5th']"
+55109,2,242,"['very_cold_days_10th', 'extremely_cold_days_5th']"
+55107,2,242,"['very_cold_days_10th', 'extremely_cold_days_5th']"
+55133,2,24,"['high_precip_days_95th', 'high_precip_days_95th.1']"
+12021,2,126,"['low_temp_days_10th', 'cold_days_0c']"
+12015,2,122,"['low_temp_days_10th', 'cold_days_0c']"
+26121,2,54,"['high_precip_days_95th', 'high_precip_days_95th.1']"
+12011,2,124,"['low_temp_days_10th', 'cold_days_0c']"
+39145,2,24,"['high_precip_days_95th', 'high_precip_days_95th.1']"
+55027,2,22,"['high_precip_days_95th', 'high_precip_days_95th.1']"
+55047,2,20,"['high_precip_days_95th', 'high_precip_days_95th.1']"
+55131,2,50,"['high_precip_days_95th', 'high_precip_days_95th.1']"
+55081,2,34,"['high_precip_days_95th', 'high_precip_days_95th.1']"
+55053,2,30,"['high_precip_days_95th', 'high_precip_days_95th.1']"
+12027,2,241,"['low_temp_days_10th', 'ultra_cold_days_1st']"
+13281,2,58,"['high_precip_days_95th', 'high_precip_days_95th.1']"
+55079,2,70,"['high_precip_days_95th', 'high_precip_days_95th.1']"
+55089,2,74,"['high_precip_days_95th', 'high_precip_days_95th.1']"
+39001,2,202,"['high_precip_days_95th', 'high_precip_days_95th.1']"
+12085,2,239,"['low_temp_days_10th', 'ultra_cold_days_1st']"
+12115,2,240,"['low_temp_days_10th', 'ultra_cold_days_1st']"
+39015,2,56,"['high_precip_days_95th', 'high_precip_days_95th.1']"
+35039,2,43,"['annual_max_temp_c', 'cold_days_0c']"
+27027,1,121,['ultra_cold_days_1st']
+53031,1,24,['annual_max_temp_c']
+48505,1,121,['ultra_cold_days_1st']
+27005,1,121,['ultra_cold_days_1st']
+27007,1,121,['ultra_cold_days_1st']
+27021,1,121,['ultra_cold_days_1st']
+04007,1,121,['extremely_cold_days_5th']
+55129,1,121,['extremely_cold_days_5th']
+55083,1,121,['extremely_cold_days_5th']
+55085,1,121,['extremely_cold_days_5th']
+38029,1,121,['high_temp_days_95th']
+38043,1,121,['high_temp_days_95th']
+30031,1,120,['high_temp_days_95th']
+38095,1,117,['high_temp_days_95th']
+46107,1,101,['high_temp_days_95th']
+30037,1,101,['high_temp_days_95th']
+31061,1,121,['hot_days_30c']
+16033,1,121,['hot_days_30c']
+16031,1,121,['hot_days_30c']
+56039,1,121,['hot_days_30c']
+16071,1,121,['hot_days_30c']
+30051,1,121,['hot_days_30c']
+16083,1,121,['hot_days_30c']
+32007,1,121,['hot_days_30c']
+32011,1,121,['hot_days_30c']
+30097,1,121,['hot_days_30c']
+32023,1,121,['hot_days_30c']
+32033,1,121,['hot_days_30c']
+38015,1,121,['hot_days_30c']
+38021,1,121,['hot_days_30c']
+30057,1,121,['hot_days_30c']
+30059,1,121,['hot_days_30c']
+30065,1,121,['hot_days_30c']
+38027,1,116,['high_temp_days_95th']
+38071,1,116,['high_temp_days_95th']
+38103,1,116,['high_temp_days_95th']
+38047,1,114,['high_temp_days_95th']
+46021,1,113,['high_temp_days_95th']
+46129,1,110,['high_temp_days_95th']
+38063,1,109,['high_temp_days_95th']
+30107,1,108,['high_temp_days_95th']
+08007,1,121,['very_cold_days_10th']
+48287,1,121,['very_cold_days_10th']
+48291,1,121,['very_cold_days_10th']
+48247,1,121,['very_cold_days_10th']
+48249,1,121,['very_cold_days_10th']
+48255,1,121,['very_cold_days_10th']
+48259,1,121,['very_cold_days_10th']
+48311,1,121,['very_cold_days_10th']
+48313,1,121,['very_cold_days_10th']
+48271,1,121,['very_cold_days_10th']
+48273,1,121,['very_cold_days_10th']
+48283,1,121,['very_cold_days_10th']
+48285,1,121,['very_cold_days_10th']
+55087,1,121,['extremely_cold_days_5th']
+55093,1,121,['extremely_cold_days_5th']
+12053,1,121,['extremely_cold_days_5th']
+12057,1,121,['extremely_cold_days_5th']
+12061,1,121,['extremely_cold_days_5th']
+12069,1,121,['extremely_cold_days_5th']
+48489,1,121,['ultra_cold_days_1st']
+48427,1,121,['ultra_cold_days_1st']
+48061,1,121,['ultra_cold_days_1st']
+27069,1,121,['ultra_cold_days_1st']
+27029,1,121,['ultra_cold_days_1st']
+27135,1,121,['low_temp_days_10th']
+27077,1,121,['low_temp_days_10th']
+38099,1,103,['high_temp_days_95th']
+38085,1,103,['high_temp_days_95th']
+38051,1,103,['high_temp_days_95th']
