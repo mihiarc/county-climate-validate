@@ -110,9 +110,17 @@ Thumbs.db
 # Log files
 *.log
 
-# Large data files (keeping the main CSV but excluding any temporary ones)
+# Large data files (exceeding GitHub's file size limits)
+county_climate_metrics_complete_1980_2100.csv
 *_temp.csv
 *_backup.csv
+
+# Large shapefiles and GIS data
+tl_2024_us_county/
+*.shp
+*.dbf
+*.shx
+*.prj
 
 # Plot/visualization output directories (keeping the folders but they'll be empty in git)
 # Uncomment these if you want to exclude generated plots:
